@@ -2,9 +2,9 @@
 node_modules/*
 postgres/*
 typings/*
-*/.git*
-*.git*
+**/.git
 *.git
+!.gitmodules
 *.md
 !gulpfile.js
 ci/
