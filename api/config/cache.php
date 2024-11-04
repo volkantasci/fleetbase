@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('CACHE_DRIVER', 'null'),
+    'default' => env('CACHE_DRIVER', 'redis'),
 
     /*
     |--------------------------------------------------------------------------
@@ -32,9 +32,6 @@ return [
     */
 
     'stores' => [
-        'null' => [
-            'driver' => 'null',
-        ],
 
         'apc' => [
             'driver' => 'apc',
@@ -94,6 +91,7 @@ return [
         'octane' => [
             'driver' => 'octane',
         ],
+
     ],
 
     /*
