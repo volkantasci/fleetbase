@@ -13,6 +13,7 @@ terms:
   search: Ara
   search-input: Arama Girişi
   contacts: Kişiler
+  details: Detaylar
 common:
   setup: Kurulum
   contacts: Kişiler
@@ -77,6 +78,7 @@ common:
   unauthorized-access-message: Yetkisiz Erişim, erişim için izin talep etmelisiniz.
   permissions-required-for-changes: Değişiklik yapmak için gerekli izinlere sahip değilsiniz.
   push-notifications: Anlık Bildirimler
+  details: Detaylar
 
 component:
   header:
@@ -1097,6 +1099,7 @@ fleet-ops:
         liters-mixed: Karma Km Başına Litre
 
       vehicle-form:
+        details: Detaylar
         map-avatar: Harita avatarı seç
         map-avatar-text: Konum takibi özelliklerini kullanırken haritalarda gösterilecek bir avatar seçin.
         select-avatar: Avatar seç
@@ -1616,6 +1619,9 @@ fleet-ops:
       select-map-avatar: Harita avatarı seç
       select-avatar-rendering: Konum takibi özelliklerini kullanırken haritalarda gösterilecek bir avatar seçin.
       select-avatar: Avatar seç
+      create-form:
+        title: Araç oluştur
+        details: Detaylar
 
     vehicle-panel:
       edit: Aracı düzenle
